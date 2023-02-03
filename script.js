@@ -24,9 +24,9 @@ function playTheGame() {
 
 // function to compare numbers
 function compareNumbers(userNumber,computerNumber) {
-    let nbChance = 1;
+    let numberChance = 1;
 
-    while (nbChance < 4) {
+    while (numberChance < 4) {
         if (Number(userNumber) == Number(computerNumber)) {
             alert("WINNER");
             return;
@@ -46,7 +46,7 @@ function compareNumbers(userNumber,computerNumber) {
         }
         userNumber = Number(choice);
 
-        nbChance++;
+        numberChance++;
     }
 
     // End of the game
